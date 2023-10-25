@@ -1,42 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 nav{
     background-color: #d4a373;
     position: fixed;
     width: 100%;
+    height: 60px;
     
 }
 .header-content{
     list-style-type: none;
-    padding-left: 10px;
     font-size: 50px;
     font-weight: 700;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
+    align-items: center ;
 }
- #logo-title{
+.search-bar-button{
     display: inline-flex;
-    font-size: 30px;
-    font-family: Inter;
-    font-weight: 600;
+}
+ .logo-title{
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
+    margin-left: -50px;
 } 
 .search-bar{
-    width: 900px;
+    width: 700px;
     height: 30px;
     border-radius: 20px;
-    margin-right: 10px;
     font-size: 20px;
-}
-.header-content img{
-    height:50px;
-    width: 100px;
-    
+    margin-top: 8px;
 }
 .title-header{
     align-self: center;
@@ -44,10 +46,44 @@ nav{
 .search-button{
     font-size: 20px; 
     width: 100px;
-    height:50px;
+    height:40px;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-top: 5px;
     background-color: black;
     color: white;
     cursor: pointer;
+}
+.cart-logo{
+   height: 40px;
+   width: 80px;
+    
+}
+.signin-button{
+    font-size: 20px; 
+    width: 100px;
+    height:40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.cart-font{
+    display: inline-flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+.cart-font span{
+    margin-left: -20px;
+}
+.signin-button-li{
+    display: flex;
+}
+.logo-title span{
+    margin-left: -20px;
+    font-weight: 800;
+    margin-top: 5px;
 }
