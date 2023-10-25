@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+.signformcontainer{
+    display: flex;
+    width: 100%;
+    height: vh;
+}
+
+.signupform{
+    width: 400px;
+    height: 500px;
+    background-color: antiquewhite;
+}
