@@ -117,7 +117,7 @@ nav{
 .first-row-col{
     display: flex;
     flex-direction: column;
-    background-color: #FEFAE0;
+    background-color: transparent;
     width: 300px;
     height: 400px;
 }
