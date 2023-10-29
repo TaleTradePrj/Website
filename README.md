@@ -1,2 +1,2 @@
 # Website
-This website is about mahesh dalla
+ECommerce website made with a beautiful color scheme in mind
