@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-
+    animation: floatup 1s forwards;
 }
 nav{
     background-color: #d4a373;
@@ -57,6 +57,7 @@ nav{
 .cart-logo{
    height: 40px;
    width: 80px;
+   transition: 0.3s;
     
 }
 .signin-button{
@@ -68,6 +69,10 @@ nav{
     color: white;
     cursor: pointer;
     margin-top: 7px;
+    transition: 0.3s;
+}
+.signin-button:hover{
+    scale: 1.1;
 }
 .cart-font{
     display: inline-flex;
@@ -76,12 +81,22 @@ nav{
     justify-content: flex-start;
     margin-top: 4px;
     margin-left: -10px;
+    transition: 0.3s;       
 }
 .cart-font span{
     margin-left: -20px;
 }
 .signin-button-li{
     display: flex;
+}
+.cart-logo:hover{
+    border: 1px;
+    scale: 1.11;
+    cursor: pointer;
+}
+.cart-font:hover{
+    scale: 1.11;
+    cursor: pointer;
 }
 .logo-title span{
     margin-left: -20px;
@@ -133,4 +148,14 @@ nav{
     width: 900px;
     height: 900px;
     margin-bottom: 10px;
+}
+@keyframes floatup {
+    from {
+        transform: translateY(14px);
+        opacity: .0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }

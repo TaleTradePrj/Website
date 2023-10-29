@@ -10,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color: #CCD5AE;
+    animation: floatup 1s forwards;
 }
 
 .signformcontainer{
@@ -114,4 +115,14 @@
 .nextSignBtn:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+@keyframes floatup {
+    from {
+        transform: translateY(14px);
+        opacity: .0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }

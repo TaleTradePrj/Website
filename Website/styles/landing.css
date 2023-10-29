@@ -5,6 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Inter;
+    animation: floatup 1s forwards;
+
 }
 
 body{
@@ -40,4 +42,14 @@ body{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 10px;
+}
+@keyframes floatup {
+    from {
+        transform: translateY(14px);
+        opacity: .0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
