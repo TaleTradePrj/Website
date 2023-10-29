@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+nav{
+    background-color: #d4a373;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    
+}
+.header-content{
+    top:0;
+    list-style-type: none;
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+.search-bar-button{
+    display: inline-flex;
+}
+ .logo-title{
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 900;
+    align-items: center;
+    margin-left: -50px;
+} 
+.search-bar{
+    width: 700px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.title-header{
+    align-self: center;
+}
+.search-button{
+    font-size: 20px; 
+    width: 100px;
+    height:40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.cart-logo{
+   height: 40px;
+   width: 80px;
+    
+}
+.signin-button{
+    font-size: 20px; 
+    width: 100px;
+    height:40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.cart-font{
+    display: inline-flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4px;
+    margin-left: -10px;
+}
+.cart-font span{
+    margin-left: -20px;
+}
+.signin-button-li{
+    display: flex;
+}
+.logo-title span{
+    margin-left: -20px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #ede0d4;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.cartPrompt{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #FEFAE0;
+    width: 900px;
+    height: 120px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.cartPromptSub{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cartSuggestion{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: 20px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #FEFAE0;
+    width: 900px;
+    height: 900px;
+    margin-bottom: 10px;
+}
